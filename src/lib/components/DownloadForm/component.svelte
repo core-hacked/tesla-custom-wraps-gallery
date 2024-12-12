@@ -36,7 +36,7 @@
 
 <form on:submit={onSubmitDownload}>
 	<div
-		class="tds-form-input-group accessories-block-wtih-asset flex h-full w-full flex-row flex-wrap items-center justify-center gap-2"
+		class="tds-form-input-group accessories-block-wtih-asset flex h-full w-full !flex-row flex-wrap items-center justify-center gap-2"
 	>
 		{#each wrapsData as authorData}
 			{#each authorData.wraps as wrap}
