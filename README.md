@@ -1,3 +1,6 @@
+> Note: needs a few improvements, will do soon :D
+
+
 # Tesla (Custom) Wraps Gallery | T(C)WG
 
 ## Introduction
