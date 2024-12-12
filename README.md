@@ -1,55 +1,58 @@
-# Custom Wrap Images for Tesla Cybertruck
+# Tesla (Custom) Wraps Gallery | T(C)WG
 
-Welcome to the Cybertruck Custom Wrap Images guide! This page will walk you through the steps to create and load custom wrap images onto your Tesla's 3D car visualization.
+## Introduction
 
-## Getting Started
+This is a gallery of custom wraps for Tesla vehicles (currently limited to Cybertruck). The gallery is a community-driven project and is not monetized in any way. The gallery is intended as a place to share, preview and download custom wraps for Tesla vehicles.
 
-To get started, you'll need to download the template image provided below. This template will give you guidelines on how to generate new wrap images. To use it, fill in the white parts of the template with the desired content, save it into a file and follow the steps below.
+## How to contribute
 
-<a href="template/cybertruck/template.png"><img src="template/cybertruck/template.png?raw=true"/></a>
+To contribute to the gallery, please follow the steps below:
 
-You can find some examples under <a href="example/cybertruck">example/cybertruck</a>.
+1. Fork the repository
+2. Create a new folder in the `/static/wraps` directory with your github handle
+3. Add your wrap files to the folder you created
+4. Add (or update) your data in the `index.json` file with the following format:
 
-## Image Requirements
+```json
+[
+  [...]
+  {
+    "author": "your-github-handle",
+    "wraps": [
+      {
+        "name": "Your Wrap",
+        "path": "your-wrap.png",
+        "dont-crop": false,
+      }
+    ]
+  }
+]
 
-To ensure that your wrap images work correctly, please follow these guidelines:
+```
 
-* **Resolution**: Images must be 1024x768 pixels.
-* **File Size**: Images must be no larger than 1 MB.
-* **File Name**: Image names cannot contain special symbols and should be no longer than 30 characters.
-* **File Format**: Images must be in PNG format.
-* **File Count**: Up to 10 images can be used at a time.
+You can also add a `dont-crop: true` property to the wrap object if you don't want the image to be cropped, in case you need to showcase the full wrap design.
+More options may be added in the future.
 
-## Loading Images onto a USB Drive
+5. Create a pull request
 
-To use your wrap images you need to load them onto a USB drive:
+## How to download / install wraps
 
-1. Create a folder called `Wraps` at the root level of the USB drive.
-2. Place your wrap images inside the `Wraps` folder.
-3. Ensure that the USB drive is formatted as one of the following:
-    + exFAT
-    + FAT 32 (for Windows)
-    + MS-DOS FAT (for Mac)
-    + ext3
-    + ext4
-    + Note: NTFS is not currently supported
-4. Make sure the USB drive does not contain any map update or firmware update files.
+See [this guide](https://github.com/teslamotors/custom-wraps) from Tesla's official repository.
 
-## Applying Wrap Images to Your Cybertruck
+---
 
-To apply a wrap image to your Cybertruck visualization, follow these steps:
+## Dependencies
 
-1. Plug the USB drive into your truck's USB port.
-2. Navigate to Toybox -> Paint Shop.
-3. Switch to the Wraps tab.
-4. Select a wrap image from the list.
-5. Tap on the wrap image to apply it to the car visualization.
+1. Tailwind CSS
+2. JSZip
+3. TDS (Tesla Design System - Compiled CSS File, from cdn-design.tesla.com | v9.1.2)
+4. Cyber-Theme.css - Locally embedded
 
-<a href="images/cybertruck/paint-shop-wraps.png"><img src="images/cybertruck/paint-shop-wraps.png?raw=true"/></a>
+> Note: All assets or brand names are property of their respective owners, Cybertruck, Model S, Model 3, Model X, Model Y, Tesla, and the "Tesla" logo are trademarks of Tesla, Inc.
 
-## Troubleshooting
+## License
 
-If you encounter any issues with loading or applying wrap images, please check the following:
+All assets, excluding community contributions, belong to Tesla, Inc. and are protected by copyright, trademark, and other intellectual property laws. All rights not expressly granted to you are reserved by Tesla, Inc.
 
-* Ensure that the USB drive is formatted correctly and does not contain any map update or firmware update files.
-* Verify that the wrap images meet the requirements listed above.
+The code/project is licensed separately under the MIT license, excluding the Tesla assets.
+For takedown requests, please contact the repository owner under: me@corehacked.com

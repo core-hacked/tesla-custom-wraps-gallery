@@ -1,0 +1,125 @@
+[
+	{
+		"author": "core-hacked",
+		"wraps": [
+			{
+				"name": "Example Wrap",
+				"path": "/core-hacked/example-wrap.png"
+			}
+		]
+	},
+	{
+		"author": "teslamotors",
+		"wraps": [
+			{
+				"name": "Camo Blue",
+				"path": "/teslamotors/Camo_Blue.png"
+			},
+			{
+				"name": "Camo Brown",
+				"path": "/teslamotors/Camo_Brown.png"
+			},
+			{
+				"name": "Camo Green",
+				"path": "/teslamotors/Camo_Green.png"
+			},
+			{
+				"name": "Camo Pink",
+				"path": "/teslamotors/Camo_Pink.png"
+			},
+			{
+				"name": "Camo Sand",
+				"path": "/teslamotors/Camo_Sand.png"
+			},
+			{
+				"name": "Camo Snow",
+				"path": "/teslamotors/Camo_Snow.png"
+			},
+			{
+				"name": "Camo Stealth",
+				"path": "/teslamotors/Camo_Stealth.png"
+			},
+			{
+				"name": "Digital Camo Green",
+				"path": "/teslamotors/Digital_Camo_Green.png"
+			},
+			{
+				"name": "Camo Snow",
+				"path": "/teslamotors/Digital_Camo_Snow.png"
+			},
+			{
+				"name": "Camo Stealth",
+				"path": "/teslamotors/Digital_Camo_Stealth.png"
+			},
+			{
+				"name": "Doge Camo",
+				"path": "/teslamotors/Doge_Camo.png"
+			},
+			{
+				"name": "Gradient Black",
+				"path": "/teslamotors/Gradient_Black.png"
+			},
+			{
+				"name": "Gradient Burn",
+				"path": "/teslamotors/Gradient_Burn.png"
+			},
+			{
+				"name": "Gradient Cotton Candy",
+				"path": "/teslamotors/Gradient_Cotton_Candy.png"
+			},
+			{
+				"name": "Gradient Green",
+				"path": "/teslamotors/Gradient_Green.png"
+			},
+			{
+				"name": "Gradient Purple Burn",
+				"path": "/teslamotors/Gradient_Purple_Burn.png"
+			},
+			{
+				"name": "Gradient Sunburst",
+				"path": "/teslamotors/Gradient_Sunburst.png"
+			},
+			{
+				"name": "Graffiti Back",
+				"path": "/teslamotors/Graffiti_back.png",
+				"dont-crop": true
+			},
+			{
+				"name": "Graffiti Green",
+				"path": "/teslamotors/Graffiti_green.png"
+			},
+			{
+				"name": "Graffiti Orange",
+				"path": "/teslamotors/Graffiti_orange.png"
+			},
+			{
+				"name": "Grandma's Sofa",
+				"path": "/teslamotors/Grandmas_Sofa.png"
+			},
+			{
+				"name": "Houndstooth",
+				"path": "/teslamotors/Houndstooth.png"
+			},
+			{
+				"name": "RC Prototype",
+				"path": "/teslamotors/Rc_prototype.png"
+			},
+			{
+				"name": "Retro",
+				"path": "/teslamotors/Retro.png"
+			},
+			{
+				"name": "Rust",
+				"path": "/teslamotors/Rust.png"
+			},
+			{
+				"name": "Woody",
+				"path": "/teslamotors/Woody.png"
+			},
+			{
+				"name": "Xray",
+				"path": "/teslamotors/Xray.png"
+			}
+		]
+	}
+]
