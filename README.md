@@ -48,7 +48,7 @@ See [this guide](https://github.com/teslamotors/custom-wraps) from Tesla's offic
 
 1. Tailwind CSS
 2. JSZip
-3. TDS (Tesla Design System - Compiled CSS File, pulled from cdn-design.tesla.com | v9.1.2)
+3. TDS (Tesla Design System - Compiled CSS File, included from cdn-design.tesla.com | v9.1.2)
 4. Cyber-Theme.css - Locally embedded
 
 > Note: All assets or brand names are property of their respective owners, Cybertruck, Model S, Model 3, Model X, Model Y, Tesla, and the "Tesla" logo are trademarks of Tesla, Inc.

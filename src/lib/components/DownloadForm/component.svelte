@@ -149,10 +149,10 @@
 		{/each}
 	</div>
 	<div class="tds-clip-top-right fixed bottom-0 right-2 h-[65px] w-[320px] rounded-t-xl bg-[#222]">
-		<button class="tds-btn tds-btn--primary absolute bottom-2 right-8 max-w-52" type="submit">
+		<button class="tds-btn tds-btn--primary !absolute bottom-2 right-8 max-w-52" type="submit">
 			Download
 		</button>
-		<button class="tds-btn tds-btn--secondary absolute bottom-2 left-4 max-w-40" type="reset">
+		<button class="tds-btn tds-btn--secondary !absolute bottom-2 left-4 max-w-40" type="reset">
 			Reset
 		</button>
 	</div>
